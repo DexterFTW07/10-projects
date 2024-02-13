@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* NAV BAR */
+
+nav {
+    border: 1px solid #ccc;
+    height: 100vh;
+    width: 250px;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    display: flex;
+}
+
+nav h1 {
+    font-weight: 300;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 22px;
+}
+
+nav ul li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    list-style: none;
+}
+
+nav ul li:hover {
+    background-color: #ccc;
+    transition: 0.3s ease-in-out;
+}
+
+main {
+    padding: 50px;
+    max-width: 1200px;
+}
+
+section p, section li {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+section h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+section li {
+    margin-left: 40px;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+code {
+    display: block;
+    padding: 15px;
+    white-space: pre-line;
+    line-height: 2;
+    background: #f7f7f7;
+    margin-top: 20px;
+    margin-left: 15px;
+}
