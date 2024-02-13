@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+/* NAV BAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.center-nav {
+    display: flex;
+    height: 60px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    min-width: 600px;
+    padding: 10px 20px;
+    border: 0.5px solid #ccc;
+    
+}
+
+.search-bar button {
+    width: 60px;
+    border: none;
+}
+
+.mic {
+    padding: 15px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: #f1efef;
+    margin-left: 15px;
+}
+
+.mic img {
+    width: 30px;
+}
+
+.side-icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.tag-sec {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    border-top: #ccc solid 1px;
+}
+
+.tag {
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.dark {
+    background-color: black;
+    color: #f1efef;
+}
+
+.light {
+    background-color: #eeeded;
+}
+
+
+/* ASIDE */
+
+aside {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    margin-right: 0 auto;
+}
+
+.side-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.side-icons img {
+    width: 30px;
+}
+
+.side-icons p {
+    font-size: 11px;
+}
+
+main {
+    min-height: 100vh;
+    background: rgb(240, 238, 238); 
+}
+
+
+.card-details {
+    display: flex;
+    gap: 12px;
+}
+
+.logos img {
+    width: 40px;
+}
+
+.thumbnail img {
+    width: 300px;
+}
+
+.card {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: space-evenly;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-dot {
+    align-items: flex-end;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sec {
+    margin-bottom: 20px;
+}
